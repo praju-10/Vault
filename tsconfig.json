@@ -8,6 +8,7 @@
     "strict": false,
     "noImplicitAny": false,
     "skipLibCheck": true,
+    "types": ["vite/client"],
     "noEmit": true
   },
   "include": ["src"]

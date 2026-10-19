@@ -597,7 +597,6 @@ export default function App() {
                 <h1 className="text-xl font-bold tracking-tight text-[#182230] flex items-center gap-2">
                   Vault <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-emerald-100 text-[#167D65]">SAVINGS</span>
                 </h1>
-                <p className="text-xs text-[#738094]">Personal Deposit & Wealth Dashboard</p>
               </div>
             </div>
 
@@ -674,6 +673,9 @@ export default function App() {
               
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-emerald-800/60">
                 <div>
+                  <span className="text-[11px] font-bold tracking-wider text-emerald-400 uppercase">
+                    Your Financial Snapshot
+                  </span>
                   <h2 className="text-2xl font-bold mt-0.5">Savings Overview</h2>
                   <p className="text-xs text-emerald-200/80 mt-1">
                     Consolidated view of all active fixed deposits and recurring monthly installments.
